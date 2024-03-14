@@ -1,0 +1,18 @@
+ 484  python /projects/perception/personals/bohan/NeRF-OSR/extract_env_json.py /projects/perception/personals/bohan/NeRF-OSR/logs/corner0_090415/model_150000.pth
+  485  python env)json_to_txt.py /projects/perception/personals/bohan/NeRF-OSR/logs/corner0_090415/model_150000.pth.env_params.json ./test_env_val
+  486  python env_json_to_txt.py /projects/perception/personals/bohan/NeRF-OSR/logs/corner0_090415/model_150000.pth.env_params.json ./test_env_val
+  487  python env_json_to_txt.py /projects/perception/personals/bohan/NeRF-OSR/logs/corner0_090415/model_150000.pth.env_params.json
+  488  python env_json_to_txt.py /projects/perception/personals/bohan/NeRF-OSR/logs/corner0_090415/model_150000.pth.env_params.json
+  489  python env_json_to_txt.py /projects/perception/personals/bohan/NeRF-OSR/logs/corner0_090415/model_150000.pth.env_params.json
+  490  python ddp_test_nerf.py --config configs/hibay/090415.txt --render_splits train --test_env $DATASET_DIR/nerfosr/hibay/090415/novel/envmaps
+  491  python env_json_to_txt.py /projects/perception/personals/bohan/NeRF-OSR/logs/corner0_090415/model_150000.pth.env_params.json
+  492  python /projects/perception/personals/bohan/NeRF-OSR/extract_env_json.py /projects/perception/personals/bohan/NeRF-OSR/logs/corner0_090409/model_150000.pth
+  493  python env_json_to_txt.py /projects/perception/personals/bohan/NeRF-OSR/logs/corner0_090409/model_150000.pth.env_params.json
+  494  cd /projects/perception/datasets/nerfosr/kitti
+  495  ls
+  496  python migrate_htest.py
+  497  python migrate_htest.py
+  498  cd $BOHAN/Ne*
+  499  scancel 10261220
+  500  scancel 10261233
+  501  history
